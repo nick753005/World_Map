@@ -23,11 +23,9 @@
 
 <div class="container-fluid p-1 bg-success text-white text-center">
   <h1 class="d-flex align-items-center">
-    <img src="globe.png" class="globe me-5" alt="Globe">  
-      <label class="me-4">Interactive Map of the World
-        <h6><br>MSc Computer Science - Web Technologies Final Assessment</h6>
-      </label>
-  </h1> 
+    <img src="globe.png" class="globe me-4" alt="Globe"> 
+    <label class="me-4">Interactive Map of the World</label>
+  </h1>
 </div>
 
 <!-- Keep the map centered horizontally -->
@@ -41,11 +39,20 @@
   <div class="row">
     <div class="col-sm-3 p-3 bg-success text-white">
       <h5>Select map option:</h5>
-      <input type="radio" name="map" value="Opt1" onchange="mapButClick(1)" class="mx-2" checked> English Place Names
+      <label>
+        <input type="radio" name="map" value="Opt1" onchange="mapButClick(1)" class="mx-2" checked>
+        English Place Names
+      </label>
       <br>
-      <input type="radio" name="map" value="Opt2" onchange="mapButClick(2)" class="mx-2"> Geographical Terrain
+      <label>
+        <input type="radio" name="map" value="Opt2" onchange="mapButClick(2)" class="mx-2">
+        Geographical Terrain
+      </label>
       <br> 
-      <input type="radio" name="map" value="Opt3" onchange="mapButClick(3)" class="mx-2"> Regional Place Names
+      <label>
+        <input type="radio" name="map" value="Opt3" onchange="mapButClick(3)" class="mx-2">
+        Regional Place Names
+      </label>
       <br>
       <br>
       <br>
