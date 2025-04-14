@@ -1,0 +1,46 @@
+
+
+body {
+    background-color: rgb(225, 238, 230);
+}
+
+.button-area {
+    background-color: rgb(225, 238, 230);
+    color: black;   
+    border: 8px solid rgb(25, 135, 84);
+}
+
+
+#map { height: 400px;
+       width: 600px;
+       border: 1px solid black;
+}
+
+.globe {
+    width: 100px; 
+    height: 100px;
+}
+
+.select-style {
+    width: 230px;
+}
+
+/* background colour for popups on map */
+.leaflet-popup-content-wrapper {
+    background-color: yellow !important;
+    color: black;
+}
+
+#flag {
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+#coatOfArms {
+    height: 150px;
+    width: 150px;
+}
+
+
+
