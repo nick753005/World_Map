@@ -105,7 +105,8 @@ function findCapital() {
     if( num_marker >= 2) {
         dist = haversine( home_latlng,latlng_2 );
        // dist = dist.toFixed(0);
-        document.getElementById("distance").innerHTML="The distance between "+home_capital+" and "+capital_2+" is "+dist+" kms";
+        document.getElementById("distance").innerHTML="The distance between "+home_capital+" and "+capital_2+" is "+dist+" kms"+
+            "<br>Hover over the map to view";
         console.log(home_capital +":"+home_latlng+"----"+capital_2+":"+latlng_2+" = "+dist);
         //pnt1 = latlng_1;
         //pnt2 = latlng_2;
